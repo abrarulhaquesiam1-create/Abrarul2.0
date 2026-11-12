@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#070914" />
+  <meta name="description" content="Abrarul Haque Siam — Graphic Designer, Video Editor and Visual Creator." />
+  <title>Abrarul Haque Siam — Creative Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="noise" aria-hidden="true"></div>
+  <div class="cursor-glow" aria-hidden="true"></div>
+  <canvas id="world" aria-hidden="true"></canvas>
+
+  <header class="topbar">
+    <a class="brand" href="#home" aria-label="Abrarul Haque Siam home"><span class="brand-mark">A</span><span>AHS<span class="brand-dot">.</span></span></a>
+    <div class="top-note"><span class="status-dot"></span> CREATIVE PORTFOLIO <span class="top-year">/ 2026</span></div>
+    <a class="menu-link" href="#about">ABOUT <span>↘</span></a>
+  </header>
+
+  <main id="home">
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow reveal"><span class="eyebrow-line"></span> INDEPENDENT CREATIVE MIND · BANGLADESH</p>
+        <h1 class="hero-title reveal">
+          <span>ABRARUL</span>
+          <span class="name-second">HAQUE <i>SIAM</i></span>
+        </h1>
+        <div class="hero-bottom reveal">
+          <p class="hero-description">I turn ideas into <span>visual experiences</span> through design, motion and creative storytelling.</p>
+          <a class="discover" href="#about"><span class="discover-icon">↓</span><span>DISCOVER<br>MY WORLD</span></a>
+        </div>
+      </div>
+
+      <div class="portrait-wrap reveal" id="portraitWrap">
+        <div class="portrait-orbit orbit-one"></div>
+        <div class="portrait-orbit orbit-two"></div>
+        <div class="portrait-frame">
+          <img src="assets/siam-portrait.png" alt="Portrait of Abrarul Haque Siam" />
+          <div class="portrait-shade"></div>
+          <div class="portrait-label"><span>THE CREATIVE</span><span>BEHIND THE FRAME ↗</span></div>
+        </div>
+        <div class="float-chip chip-top">DESIGN <span>✳</span></div>
+        <div class="float-chip chip-bottom">MOTION / VISUALS</div>
+        <div class="crosshair crosshair-one"></div>
+        <div class="crosshair crosshair-two"></div>
+      </div>
+
+      <div class="hero-index"><span>01</span><span class="index-line"></span><span>INTRODUCTION</span></div>
+      <div class="scroll-hint">SCROLL TO EXPLORE <span>⌄</span></div>
+    </section>
+
+    <section class="about-section" id="about">
+      <div class="section-kicker reveal"><span>01 / ABOUT</span><span class="kicker-line"></span><span>THE PERSON & THE PROCESS</span></div>
+      <div class="about-grid">
+        <div class="about-heading reveal">
+          <p class="mini-label">A LITTLE ABOUT ME</p>
+          <h2>Curiosity<br>made <em>visual.</em></h2>
+        </div>
+        <div class="about-text reveal">
+          <p class="about-lead">I'm <strong>Abrarul Haque Siam</strong>, a graphic designer, video editor and visual creator from Bangladesh.</p>
+          <p>I enjoy shaping ideas into visuals that feel intentional, expressive and memorable. From visual identities and posters to cinematic edits, I care about the details that make a creative piece feel complete.</p>
+          <p>For me, creativity is a process of observing, experimenting and refining — until the result says more than words alone.</p>
+          <div class="signature">ABRARUL HAQUE SIAM <span>✳</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="disciplines">
+      <div class="section-kicker reveal"><span>02 / WHAT I DO</span><span class="kicker-line"></span><span>MY CREATIVE SPACE</span></div>
+      <div class="discipline-list">
+        <div class="discipline reveal"><span class="discipline-no">01</span><h3>Graphic <i>Design</i></h3><span class="discipline-symbol">✳</span></div>
+        <div class="discipline reveal"><span class="discipline-no">02</span><h3>Video <i>Editing</i></h3><span class="discipline-symbol">↗</span></div>
+        <div class="discipline reveal"><span class="discipline-no">03</span><h3>Visual <i>Storytelling</i></h3><span class="discipline-symbol">◉</span></div>
+      </div>
+    </section>
+
+    <section class="closing">
+      <div class="closing-orb" aria-hidden="true"></div>
+      <p class="eyebrow reveal"><span class="eyebrow-line"></span> END OF INTRODUCTION</p>
+      <h2 class="reveal">MAKE IT<br><em>MEAN SOMETHING.</em></h2>
+      <p class="closing-note reveal">A creative identity in progress. Always learning. Always creating.</p>
+      <div class="closing-foot"><span>ABRARUL HAQUE SIAM</span><span>DESIGN · MOTION · IDEAS</span><span>© 2026</span></div>
+    </section>
+  </main>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r160/three.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
